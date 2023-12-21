@@ -1,0 +1,128 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif; /* FUENTE */
+    max-width: 900px; /* ALT + SHIFT + A--ANCHO MAXIMO */
+    margin: 0 auto; /* MARGEN */
+    }
+    
+    nav{
+    
+        width: 100%; /* Ancho */
+        height: 160PX;/* Alto */
+        background: lightblue; /* Color de fondo */
+    }
+    
+    nav ul li {
+        list-style-type: none;
+        display: inline-block;
+        transition: 0,8s all;
+        padding: 18px 20px;
+    }
+    
+    nav ul li:hover{ /* Cuando este sobre un elemento suceda algo */
+    
+        background-color: white
+    }
+    
+    .img-logo{
+        width: 100px; /* Ancho */
+        padding: 1px;
+    }
+    
+    nav ul{
+    
+        padding-top: -20px; /* Relleno superior */
+        display: inline-flex;
+        position: relative;
+        top: -10px;
+    }
+    
+    nav ul li a{
+        text-decoration: none; /* Decoraciòn de texto ninguno */
+        color: black; /* Color de letra */
+    }
+    
+    h2, figure, ul{
+        margin: 0;
+    }
+    
+    img{
+        max-width: 100%;
+    }
+    
+    /* Estilos secciòn 1 */
+    
+    .seccion1{
+    background: blueviolet;
+    }
+    
+    .video{
+        width: 55%;
+        padding: 4pxp;
+    }
+    
+    .texto{
+        width: 40%;
+        padding: 20px;
+        vertical-align: top;
+    }
+    
+    article{
+        padding: 40px;
+        background-color: lightblue;
+    }
+    
+    article h2{
+        border-bottom: solid thin black;
+    }
+    
+    .texto, .video{
+    display: inline-block;
+    }
+    
+    .boton{
+        text-align: center; /* Alinear el texto */
+        background-color: aqua;
+        padding: 15px;
+    }
+    
+    .boton a{
+        text-decoration: none;
+        color: red;
+    }
+    
+    .boton:hover{
+        background: white;
+    }
+    
+    /* Articles */
+    
+    section{
+        background-color: lightblue;
+        
+    }
+    section h2{
+        border-bottom: 1px solid black;
+        text-align: center;
+    }
+    
+    .img-art{
+        max-width: 100;
+    }
+    
+    .cont-art{
+    width: 100%;
+    vertical-align: top;
+    }
+    
+    footer{
+        background-color: blueviolet;
+        color: white;
+        line-height: 30px;
+        text-align: center;
+        padding: 45px;
+    }
+    
+    footer div a{
+        text-decoration: none;
+        color: white;
+    }
